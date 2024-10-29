@@ -6,15 +6,23 @@
 
 .debug{
   border: 1px solid white;
-  background-color: aqua;
 }
 
+/*UTILITY*/
 .w100{
   width: 100%;
 }
 
 .h100{
   height: 100%;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.txt-grey{
+  color: #7B7E82;
 }
 
 .container{
@@ -46,9 +54,20 @@ main .container{
   display: flex;
 }
 
+main ul{
+  list-style: none;
+}
+
+main ul li{
+  color: #7B7E82;
+}
+
+/*main sidebar*/
+
 main aside{
   height: 100%;  
   width: 226px;
+  background-color: #000000;
 }
 
 main .sidebar{
@@ -61,6 +80,8 @@ main .aside-footer{
   height: 80px;
 }
 
+/*main content*/
+
 main .music{
   width: 100%;
   height: 100%;
@@ -72,6 +93,15 @@ main .music{
   width: 100%;
 }
 
+main .music-nav ul{
+  width: 50%;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+
+main .music-nav ul li{
+  justify-content: center;
+}
 
 
 
