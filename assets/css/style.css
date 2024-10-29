@@ -14,12 +14,12 @@ body{
 }
 
 /*UTILITY*/
-.w100{
-  width: 100%;
+.w25{
+  width: 25%;
 }
 
-.h100{
-  height: 100%;
+.w50{
+  width: 50%;
 }
 
 .d-flex{
@@ -257,6 +257,44 @@ footer.player{
   height: 90px;
   background-color: #282828;
 }
+
+footer .navbar{
+  height: 100%;
+}
+
+footer .navbar nav{
+  display: flex;    
+  padding: 0 20px;
+}
+
+footer .navbar ul{
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+footer .navbar ul li{
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 0.8rem;
+}
+
+footer .navbar ul img{
+  max-width: 40px;
+  max-height: 40px;
+  margin-right: 10px;
+}
+
+.justify-end{
+  justify-content: flex-end;
+}
+
+.align-center{
+  align-items: center;
+}
+
+
 
 
 
