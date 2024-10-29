@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
 .debug{
   border: 1px solid white;
 }
@@ -34,6 +39,7 @@
   display: flex;
   height: 350px;
   width: 100%;
+  gap: 15px;
 }
 
 .col{
@@ -42,6 +48,13 @@
 
 .card{
   width: 100%;
+}
+
+.btn{
+  border: 1px solid white;
+  border-radius: 30px;
+  background-color: #080B12;
+  padding: 10px 40px;
 }
 
 /*--------------------------------------MAIN-------------------------*/
@@ -89,8 +102,17 @@ main .music{
   background-color: #141922;
 }
 
-.main .upgrade{
+main .upgrade{
   width: 100%;
+  text-align: right;
+  padding: 20px 10px 30px;
+  background-color: #080B12;
+}
+
+main .upgrade a{
+  text-decoration: none;  
+  color: white;
+  font-weight: 900;
 }
 
 main .music-nav ul{
@@ -101,6 +123,21 @@ main .music-nav ul{
 
 main .music-nav ul li{
   justify-content: center;
+}
+
+main .row-title,
+main .row{
+  padding: 0 30px;
+}
+
+main .row-title h2{
+  color: white;
+  font-size: 1.5rem;
+}
+
+main .row-title h4{
+  color: #7B7E82;
+  font-size: 0.8rem;
 }
 
 
