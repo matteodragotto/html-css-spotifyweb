@@ -87,6 +87,7 @@ main aside{
   height: 100%;  
   width: 230px;
   background-color: #000000;
+  z-index: 2;
 }
 
 main .sidebar{
@@ -182,7 +183,7 @@ main .aside-footer hr{
 /*main content*/
 
 main .music{
-  width: 100%;
+  width: calc(100% - 230px);
   height: 100%;
   overflow: auto;
   background-color: #141922;
@@ -193,6 +194,10 @@ main .upgrade{
   text-align: right;
   padding: 20px 10px 30px;
   background-color: #080B12;
+  opacity: 0.8;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
 main .upgrade a{
