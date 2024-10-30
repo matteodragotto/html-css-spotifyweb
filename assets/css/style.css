@@ -34,6 +34,18 @@ body{
   color: white;
 }
 
+.justify-end{
+  justify-content: flex-end;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
 .container{
   margin: 0 auto;
   max-width: 100%;
@@ -173,11 +185,15 @@ main .aside-footer{
 
 main .aside-footer h4::before{
   content: url(../img/download.svg);
-  width: 16px;
-  height: 16px;
+  width: 20px;
   display: inline-block;
-  padding-right: 5px;
-  text-align: center;
+  padding: 0 5px 0 0;
+  
+}
+
+main .aside-footer h4:hover{
+  color: white;
+  cursor: pointer;
 }
 
 main .aside-footer h3::before{
@@ -253,10 +269,10 @@ main .card .c-img::after{
   content: '\f144';
   font-family: FontAwesome;
   color: white;
-  font-size: 60px;
+  font-size: 4.2rem;
   position: absolute;
-  top: 40%;
-  left: 40%;
+  top: 38%;
+  left: 38%;
   opacity: 0;
 }
 
@@ -313,9 +329,9 @@ footer .navbar{
 footer .navbar nav{
   display: flex;    
   padding: 0 20px;
-  gap: 15px; 
+  gap: 26px; 
   color: #FFFFFF;
-  align-items: center;
+  
 }
 
 footer .navbar nav img{
@@ -324,17 +340,15 @@ footer .navbar nav img{
   margin-right: 10px;
 }
 
-.justify-end{
-  justify-content: flex-end;
+footer .playbar i{
+  padding-top: 15px;
+  font-size: 18px;
 }
 
-.align-center{
-  align-items: center;
+footer .playbar i:nth-child(3){
+  font-size: 30px;
+  padding: 10px 2px;
 }
-
-
-
-
 
 
 /*-----------------------RESPONSIVE-------------------*/
