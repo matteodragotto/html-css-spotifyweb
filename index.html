@@ -25,7 +25,7 @@
           <nav class="search">
             <ul>
               <li class="logo"><img src="./assets/img/logo.svg" alt="logo-txt"></li>
-              <li class="txt-white">Home</li>
+              <li class="txt-white active-side">Home</li>
               <li>Cerca</li>
               <li>La tua libreria</li>
             </ul>
@@ -58,7 +58,7 @@
         <div class="music-nav">
           <nav>
             <ul class="d-flex">
-              <li>IN EVIDENZA</li>
+              <li class="active-music">IN EVIDENZA</li>
               <li>PODCAST</li>
               <li>CLASSIFICHE</li>
               <li>GENERI E MOOD</li>
@@ -264,30 +264,24 @@
   <footer class="player">
     <div class="navbar d-flex">
       <nav class="w25 debug">
-        <ul>
-          <li><img src="./assets/img/sinister.jpeg" alt="sinister"> Sinister</li>
-          <li><i class="fa-regular fa-heart" style="color: #818181;"></i></li>
-          <li><i class="fa-regular fa-folder" style="color: #818181;"></i></li>
-        </ul>
+        <img src="./assets/img/sinister.jpeg" alt="sinister">
+        <span><h5>Sinister</h5><h6>Brano Nome</h6></span>
+        <i class="fa-regular fa-heart" style="color: #818181;"></i>
+        <i class="fa-regular fa-folder" style="color: #818181;"></i>
       </nav>
 
-      <nav class="w50 debug">
-        <ul>
-          <li><i class="fa-solid fa-shuffle" style="color: #ffffff;"></i></li>
-          <li><i class="fa-solid fa-backward-step" style="color: #ffffff;"></i></li>
-          <li><i class="fa-regular fa-circle-play" style="color: #ffffff;"></i></li>
-          <li><i class="fa-solid fa-forward-step" style="color: #ffffff;"></i></li>
-          <li><i class="fa-solid fa-rotate-right" style="color: #ffffff;"></i></li> 
-        </ul>
+      <nav class="w50 playbar debug">      
+        <i class="fa-solid fa-shuffle" style="color: #ffffff;"></i>
+        <i class="fa-solid fa-backward-step" style="color: #ffffff;"></i>
+        <i class="fa-regular fa-circle-play" style="color: #ffffff;"></i>
+        <i class="fa-solid fa-forward-step" style="color: #ffffff;"></i>
+        <i class="fa-solid fa-rotate-right" style="color: #ffffff;"></i>        
       </nav>
 
-      <nav class="w25 justify-end debug">
-        <ul class="justify-end">
-          <li><i class="fa-solid fa-list" style="color: #FFFFFF;"></i></li>
-          <li><i class="fa-solid fa-display" style="color: #FFFFFF;"></i></li>
-          <li><i class="fa-solid fa-volume-high" style="color: #FFFFFF;"></i></li>
-          <li></li>
-        </ul>
+      <nav class="w25 justify-end debug">        
+        <i class="fa-solid fa-list" style="color: #FFFFFF;"></i>
+        <i class="fa-solid fa-display" style="color: #FFFFFF;"></i>
+        <i class="fa-solid fa-volume-high" style="color: #FFFFFF;"></i>        
       </nav>
       
     </div>
