@@ -25,9 +25,9 @@
           <nav class="search">
             <ul>
               <li class="logo"><img src="./assets/img/logo.svg" alt="logo-txt"></li>
-              <li class="txt-white active-side">Home</li>
-              <li>Cerca</li>
-              <li>La tua libreria</li>
+              <li class="txt-white active-side"><span class="label">Home</span></li>
+              <li><span class="label">Cerca</span></li>
+              <li><span class="label">La tua libreria</span></li>
             </ul>
           </nav>
           <nav class="playlist">
@@ -44,9 +44,9 @@
           </nav>
         </div>
         <div class="aside-footer">
-          <h4 class="d-flex">Installa App</h4>
-          <hr>
-          <h3>John Doe</h3>
+          <h4 class="d-flex label">Installa App</h4>
+          <hr class="label">
+          <h3 class="label">John Doe</h3>
         </div>
       </aside>
       <div class="music">
@@ -261,16 +261,16 @@
     </div>
   </main>
 
-  <footer class="player">
+  <footer>
     <div class="navbar d-flex">
-      <nav class="w25 align-center debug">
+      <nav class="w25 align-center">
         <img src="./assets/img/sinister.jpeg" alt="sinister">
         <span><h5>Sinister</h5><h6>Brano Nome</h6></span>
         <i class="fa-regular fa-heart" style="color: #818181;"></i>
         <i class="fa-regular fa-folder" style="color: #818181;"></i>
       </nav>
 
-      <nav class="w50 player justify-center debug">
+      <nav class="w50 player justify-center">
         <div class="playbar-buttons d-flex justify-center">
            <i class="fa-solid fa-shuffle" style="color: #ffffff;"></i>
            <i class="fa-solid fa-backward-step" style="color: #ffffff;"></i>
@@ -288,10 +288,13 @@
                 
       </nav>
 
-      <nav class="w25 justify-end align-center debug">        
+      <nav class="w25 justify-end align-center">        
         <i class="fa-solid fa-list" style="color: #FFFFFF;"></i>
         <i class="fa-solid fa-display" style="color: #FFFFFF;"></i>
-        <i class="fa-solid fa-volume-high" style="color: #FFFFFF;"></i>        
+        <i class="fa-solid fa-volume-high" style="color: #FFFFFF;"></i>
+        <div class="progress-bar">
+          <div class="progress-advance"></div>
+        </div>       
       </nav>
       
     </div>
