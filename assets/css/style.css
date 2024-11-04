@@ -257,15 +257,14 @@ main .upgrade a{
 
 main .music-nav ul{
   width: 50%;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 20px auto;
   flex-wrap: wrap;
 }
 
 main .music-nav ul li{
-  justify-content: center;
   padding: 10px;
-  font-size: 0.9rem;  
+  font-size: 0.7rem;  
 }
 
 main .row-title,
@@ -442,6 +441,9 @@ footer h6{
     width: calc(25% - 15px);
   }
   
+  main .music .music-nav ul{
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 700px){
@@ -452,6 +454,10 @@ footer h6{
 
   .col{
     width: calc(50% - 15px);
+  }
+
+  main .music .music-nav ul{
+    width: 90%;
   }
   
 }
@@ -473,6 +479,10 @@ footer h6{
 
   main .music{
     width: calc(100% - 46px);
+  }
+
+  main .music .music-nav ul{
+    width: 90%;
   }
 
   main aside .sidebar .logo{
