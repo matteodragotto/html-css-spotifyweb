@@ -475,15 +475,21 @@ footer h6{
     width: calc(100% - 46px);
   }
 
+  main aside .sidebar .logo{
+    padding-left: 10px;
+  }
+
   main aside .sidebar .logo .logo-big{
     display: none;
   }
 
-  main aside .sidebar .logo img.logo-small{
-    display: contents;
+  main aside .sidebar .logo .logo-small{
+    display: block;
   }
 
-
+  main aside .sidebar .logo img{
+    width: 75%;
+  }
 
   main aside .label{
     display: none;
