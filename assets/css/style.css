@@ -332,6 +332,10 @@ footer{
   background-color: #282828;
 }
 
+footer i{
+  cursor: pointer;
+}
+
 footer .navbar{
   height: 100%;
   display: flex;
@@ -379,7 +383,8 @@ footer .progress-bar{
   flex-grow: 0.8;
   height: 4px;
   background-color: #5A5A5A;
-  border-radius: 5px;  
+  border-radius: 5px; 
+  cursor: pointer; 
 }
 
 footer .progress-bar .progress-advance{
@@ -393,7 +398,7 @@ footer .progress-bar .progress-advance{
 }
 
 footer .progress-bar:hover .progress-advance{
-  background-color: #ADFF2F; 
+  background-color: #ADFF2F;
 }
 
 footer .progress-bar .progress-advance i{
