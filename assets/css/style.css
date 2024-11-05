@@ -13,7 +13,8 @@ body{
   border: 1px solid white;
 }
 
-/*UTILITY*/
+/*-------------------utility-------------------*/
+
 .w25{
   width: 20%;
 }
@@ -86,9 +87,24 @@ body{
   border-left: 2px solid #ADFF2F;  
 }
 
-/*--------------------------------------MAIN-------------------------*/
+/*-------------------------MAIN-------------------------*/
 main{
   height: calc(100vh - 90px);
+}
+
+main h2{
+  color: white;
+  font-size: 1.5rem;
+}
+
+main h3{
+  color: white;
+  font-size: 1rem;
+}
+
+main h4{
+  color: #7B7E82;
+  font-size: 0.8rem;
 }
 
 main .container{
@@ -110,7 +126,7 @@ main ul li:hover{
   cursor: pointer;
 }
 
-/*main sidebar*/
+/*-------------------main sidebar-------------------*/
 
 main aside{
   height: 100%;  
@@ -224,7 +240,7 @@ main .aside-footer hr{
 }
 
 
-/*main content*/
+/*-------------------main music-------------------*/
 
 main .music{
   width: calc(100% - 230px);
@@ -232,6 +248,8 @@ main .music{
   overflow: auto;
   background-color: #141922;
 }
+
+/*-------------------upgrade cta-------------------*/
 
 main .upgrade{
   width: 100%;
@@ -255,6 +273,8 @@ main .upgrade a{
   font-weight: 900;
 }
 
+/*-------------------navigation-------------------*/
+
 main .music-nav ul{
   width: 50%;
   justify-content: space-around;
@@ -276,6 +296,12 @@ main .row-title{
   margin: 20px 0;
 }
 
+main .card .c-img{
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+
 main .card .c-img::after{
   content: '\f144';
   font-family: FontAwesome;
@@ -291,10 +317,13 @@ main .card .c-img:hover::after{
   opacity: 1;
 }
 
-main .card .c-img{
-  margin: 0 auto;
-  width: 100%;
-  position: relative;
+main .card .c-img img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+main .card .c-img:hover{
+  opacity: 0.4;
 }
 
 main .card .c-txt{
@@ -306,38 +335,11 @@ main .card .c-txt{
   margin-top: 10px;
 }
 
-main .card .c-img img{
-  max-width: 100%;
-  max-height: 100%;
-}
+/*------------------------------------FOOTER-----------------------------*/
 
-main .card .c-img img:hover{
-  opacity: 0.4;
-}
-
-main h2{
-  color: white;
-  font-size: 1.5rem;
-}
-
-main h3{
-  color: white;
-  font-size: 1rem;
-}
-
-main h4{
-  color: #7B7E82;
-  font-size: 0.8rem;
-}
-
-/*------------------------------------PLAYER-----------------------------*/
 footer{
   height: 90px;
   background-color: #282828;
-}
-
-footer i{
-  cursor: pointer;
 }
 
 footer .navbar{
@@ -357,11 +359,17 @@ footer .navbar nav.player{
   flex-direction: column;
 }
 
+footer i{
+  cursor: pointer;
+}
+
 footer .navbar nav img{
   max-width: 40px;
   max-height: 40px;
   margin-right: 10px;
 }
+
+/*-------------------Playbar-------------------*/
 
 footer .playbar-buttons{
   gap: 26px;  
@@ -425,7 +433,7 @@ footer h6{
 }
 
 
-/*-----------------------RESPONSIVE-------------------*/
+/*-------------------RESPONSIVE-------------------*/
 
 @media screen and (max-width: 1100px){
   .container{
